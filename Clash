@@ -5,34 +5,312 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334', server: 122.192.154.54, port: 3389, type: trojan, password: ba4fedf8c217c146, sni: n2.gladns.com}
-  - {name: 'CYL-科技（2021.12.03）_2', server: 20.205.122.120, port: 45514, type: vmess, uuid: 739ae3ef-3710-4a33-b0db-5c29a5cec85b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 20.205.122.120}}
-  - {name: 'n_5日本（YouTube资源分享者）_3', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: '阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'CYL-科技（2021.12.03）_5', server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6', server: 20.205.122.120, port: 45514, type: vmess, uuid: 739ae3ef-3710-4a33-b0db-5c29a5cec85b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc}
-  - {name: 'CYL-科技（2021.12.03）_7', server: 20.205.122.120, port: 45514, type: vmess, uuid: 854cb409-3ae0-46c4-bf47-5e74835744b4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc}
-  - {name: 'CYL-科技（2021.12.03）_8', server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 'CYL-科技（2021.12.03）_9', server: us10.xqkj.cloud, port: 1119, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'CYL-科技（2021.12.03）_10', server: 104.19.101.5, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: '🇺🇸+美国+19_11', server: 198.57.27.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_12', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'CYL-科技（2021.12.03）_13', server: 20.205.122.120, port: 45514, type: vmess, uuid: 44241f9d-9ff1-495c-8a3e-104196ed79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc}
-  - {name: '🇺🇸+美国+14_14', server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.12.03）_15', server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.03）_16', server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '香港阿伟科技-油管_17', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'CYL-科技（2021.12.03）_18', server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_117美国（YouTube资源分享者）_19', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'CYL-科技（2021.12.03）_20', server: cu-cs.okvpn.xyz, port: 30016, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 'CYL-科技（2021.12.03）_21', server: us04.xqkj.cloud, port: 1114, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '馃嚭馃嚫US_1095', server: 38.107.226.48, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.12.03）_23', server: us01.xqkj.cloud, port: 1111, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: 'n_28美国（YouTube资源分享者）_24', server: 85.208.108.194, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_65美国（YouTube资源分享者）_25', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'CYL-科技（2021.12.03）_26', server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: '阿伟科技-油管Relay_-🇨🇦CA_08', server: v3.ssrsub.com, port: 178, type: vmess, uuid: 0e13b5a9-cb62-44cd-b28e-47f137624694, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: 'CYL-科技（2021.12.02）_28', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - name: HK04_1
+    server: gdgz.marslink.icu
+    port: 41103
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK03-IEPL+|+3倍_2
+    server: iepl.marslink.icu
+    port: 35003
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: 公益-新加坡 丨AWS_3
+    server: free.aws.sg.ecydy.com
+    port: 80
+    type: vmess
+    uuid: f98ee326-0151-3799-bd6e-b21c50497275
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /xxx
+  - name: 新加坡SG 03【公益直连】_4
+    server: 20.205.35.3
+    port: 23110
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-asw-sg-03.niaoyun.online
+  - name: HK02-IEPL+|+3倍_5
+    server: iepl.marslink.icu
+    port: 35002
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK07-IEPL+|+3倍_6
+    server: iepl.marslink.icu
+    port: 48236
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK06-IEPL+|+3倍_7
+    server: iepl.marslink.icu
+    port: 35005
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK05-IEPL+|+3倍_8
+    server: iepl.marslink.icu
+    port: 35005
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: JP02-IEPL+|+3倍_9
+    server: iepl.marslink.icu
+    port: 35007
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: US01_10
+    server: gdgz.marslink.icu
+    port: 41110
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: JP01-IEPL+|+3倍_11
+    server: iepl.marslink.icu
+    port: 35006
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: 新加坡SG 02【公益直连】_12
+    server: 20.205.35.3
+    port: 50030
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-asw-sg-02.niaoyun.online
+  - name: KR01_13
+    server: gdgz.marslink.icu
+    port: 41114
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK04-IEPL+|+3倍_14
+    server: iepl.marslink.icu
+    port: 35004
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: US02_15
+    server: gdgz.marslink.icu
+    port: 41111
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: HK05_16
+    server: gdgz.marslink.icu
+    port: 64024
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: JP01_17
+    server: gdgz.marslink.icu
+    port: 41106
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: TW02_18
+    server: gdgz.marslink.icu
+    port: 41105
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: JP02_19
+    server: gdgz.marslink.icu
+    port: 41107
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: TW01_20
+    server: gdgz.marslink.icu
+    port: 41104
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: KR02_21
+    server: gdgz.marslink.icu
+    port: 41113
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: US03_22
+    server: gdgz.marslink.icu
+    port: 64025
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: KR01-IEPL+|+3倍_23
+    server: iepl.marslink.icu
+    port: 35010
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: 公益-美国 丨CloudCone_24
+    server: free.cc.us.ecydy.com
+    port: 443
+    type: vmess
+    uuid: f98ee326-0151-3799-bd6e-b21c50497275
+    alterId: 2
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /xxx
+  - name: US01-IEPL+|+3倍_25
+    server: iepl.marslink.icu
+    port: 35014
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: US03-IEPL+|+3倍_26
+    server: iepl.marslink.icu
+    port: 35016
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: AU01-IEPL+|+3倍_27
+    server: iepl.marslink.icu
+    port: 35019
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: TW02-IEPL+|+3倍_28
+    server: iepl.marslink.icu
+    port: 35013
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: US02-IEPL+|+3倍_29
+    server: iepl.marslink.icu
+    port: 35015
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: 公益-澳大利亚 丨AWS_30
+    server: free.aws.au.ecydy.com
+    port: 80
+    type: vmess
+    uuid: f98ee326-0151-3799-bd6e-b21c50497275
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /xxx
+  - name: TW01-IEPL+|+3倍_31
+    server: iepl.marslink.icu
+    port: 35012
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: IN01-IEPL+|+3倍_32
+    server: iepl.marslink.icu
+    port: 35017
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
+  - name: github.com/freefq - 美国麻省理工学院 15_33
+    server: 18.142.46.114
+    port: 34373
+    type: vmess
+    uuid: 4c7b2216-16b3-4048-caa6-f51733d1611e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /
+  - name: 公益-日本 丨AWS_34
+    server: free.aws.jp.ecydy.com
+    port: 80
+    type: vmess
+    uuid: f98ee326-0151-3799-bd6e-b21c50497275
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /xxx
+  - name: 新加坡SG 04【公益直连】_35
+    server: v1-asw-sg-04.niaoyun.online
+    port: 443
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-asw-sg-04.niaoyun.online
+  - name: 美国欢迎订阅Youtube破解资源君_36
+    server: 167.88.63.61
+    port: 5003
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: 公益-德国 丨AWS_37
+    server: free.aws.de.ecydy.com
+    port: 80
+    type: vmess
+    uuid: f98ee326-0151-3799-bd6e-b21c50497275
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /xxx
+  - name: 新加坡SG 05【公益直连】_38
+    server: v1-asw-sg-05.niaoyun.online
+    port: 443
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-asw-sg-05.niaoyun.online
+  - name: 香港HK 03【公益直连】_39
+    server: v1-aws-hk-03.niaoyun.online
+    port: 6669
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-aws-hk-03.niaoyun.online
+  - name: 香港HK 05【公益直连】_40
+    server: v1-aws-hk-05.niaoyun.online
+    port: 666
+    type: vmess
+    uuid: 0fbaea1e-c5c5-3276-af9e-dbe870e18343
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /niaocloud
+    ws-headers:
+      Host: v1-aws-hk-05.niaoyun.online
+  - name: EN01-IEPL+|+3倍_41
+    server: iepl.marslink.icu
+    port: 35018
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: de71f6e9-3188-4a83-b066-40fce2357b38
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -40,234 +318,325 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 负载均衡
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: ♻️ 自动选择
-    type: url-test
+    proxies:
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
+    type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies:
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -283,64 +652,90 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
   - name: 负载均衡
     proxies:
-      - 阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_334
-      - CYL-科技（2021.12.03）_2
-      - n_5日本（YouTube资源分享者）_3
-      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
-      - CYL-科技（2021.12.03）_5
-      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG_6
-      - CYL-科技（2021.12.03）_7
-      - CYL-科技（2021.12.03）_8
-      - CYL-科技（2021.12.03）_9
-      - CYL-科技（2021.12.03）_10
-      - 🇺🇸+美国+19_11
-      - 欧洲欢迎订阅Youtube破解资源君_12
-      - CYL-科技（2021.12.03）_13
-      - 🇺🇸+美国+14_14
-      - CYL-科技（2021.12.03）_15
-      - CYL-科技（2021.12.03）_16
-      - 香港阿伟科技-油管_17
-      - CYL-科技（2021.12.03）_18
-      - n_117美国（YouTube资源分享者）_19
-      - CYL-科技（2021.12.03）_20
-      - CYL-科技（2021.12.03）_21
-      - 馃嚭馃嚫US_1095
-      - CYL-科技（2021.12.03）_23
-      - n_28美国（YouTube资源分享者）_24
-      - n_65美国（YouTube资源分享者）_25
-      - CYL-科技（2021.12.03）_26
-      - 阿伟科技-油管Relay_-🇨🇦CA_08
-      - CYL-科技（2021.12.02）_28
+      - HK04_1
+      - HK03-IEPL+|+3倍_2
+      - 公益-新加坡 丨AWS_3
+      - 新加坡SG 03【公益直连】_4
+      - HK02-IEPL+|+3倍_5
+      - HK07-IEPL+|+3倍_6
+      - HK06-IEPL+|+3倍_7
+      - HK05-IEPL+|+3倍_8
+      - JP02-IEPL+|+3倍_9
+      - US01_10
+      - JP01-IEPL+|+3倍_11
+      - 新加坡SG 02【公益直连】_12
+      - KR01_13
+      - HK04-IEPL+|+3倍_14
+      - US02_15
+      - HK05_16
+      - JP01_17
+      - TW02_18
+      - JP02_19
+      - TW01_20
+      - KR02_21
+      - US03_22
+      - KR01-IEPL+|+3倍_23
+      - 公益-美国 丨CloudCone_24
+      - US01-IEPL+|+3倍_25
+      - US03-IEPL+|+3倍_26
+      - AU01-IEPL+|+3倍_27
+      - TW02-IEPL+|+3倍_28
+      - US02-IEPL+|+3倍_29
+      - 公益-澳大利亚 丨AWS_30
+      - TW01-IEPL+|+3倍_31
+      - IN01-IEPL+|+3倍_32
+      - github.com/freefq - 美国麻省理工学院 15_33
+      - 公益-日本 丨AWS_34
+      - 新加坡SG 04【公益直连】_35
+      - 美国欢迎订阅Youtube破解资源君_36
+      - 公益-德国 丨AWS_37
+      - 新加坡SG 05【公益直连】_38
+      - 香港HK 03【公益直连】_39
+      - 香港HK 05【公益直连】_40
+      - EN01-IEPL+|+3倍_41
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
